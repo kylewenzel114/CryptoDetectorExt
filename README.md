@@ -14,3 +14,6 @@ Crypto Price Detector is a Chrome extension that detects cryptocurrency mentions
 2. Open **chrome://extensions/** in your browser.
 3. Enable **Developer mode**.
 4. Click **Load unpacked** and select the extension folder.
+
+# License
+MIT License
