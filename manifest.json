@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Crypto Price Detector",
+    "version": "1.2",
+    "description": "Detect cryptocurrencies on web pages and display their current prices.",
+    "permissions": [ "scripting", "activeTab", "storage" ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [ "https://api.coingecko.com/*" ],
+    "content_scripts": [
+        {
+            "matches": [ "<all_urls>" ],
+            "js": [ "content.js" ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}
