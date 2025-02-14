@@ -17,3 +17,5 @@ Crypto Price Detector is a Chrome extension that detects cryptocurrency mentions
 
 # License
 MIT License
+
+![Alt text](https://s7.ezgif.com/tmp/ezgif-76184d96bb77c7.gif)
